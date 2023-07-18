@@ -8,8 +8,8 @@ class SnippetForm(ModelForm):
        # Описываем поля, которые будем заполнять в форме
        fields = ['name', 'lang', 'code']
        widgets = {
-           'name': TextInput(attrs={"class": "form-control form-control-lg", 'placeholder': 'Название сниппета'}),
-            }
+          'name': TextInput(attrs={"class":"form-control form-control-lg", 'placeholder': 'Название сниппета'}),
+          }
        labels = {
-           'name': ''
-       }
+          'name': ''
+        }
